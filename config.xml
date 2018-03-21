@@ -52,6 +52,10 @@
     <preference name="KeyboardDisplayRequiresUserAction" value="false" />
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="SplashMaintainAspectRatio" value="true" />
+        
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="SplashScreenDelay" value="10000"/>
+    <gap:plugin name="org.apache.cordova.splashscreen" />
 
     <feature name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true"/>
